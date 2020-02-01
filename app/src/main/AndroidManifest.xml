@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.melayu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".page3_55"></activity>
+        <activity android:name=".page3_44" />
+        <activity android:name=".page3_33" />
+        <activity android:name=".page3_22" />
+        <activity android:name=".page3_11" />
+        <activity android:name=".page3_5" />
+        <activity android:name=".page3_4" />
+        <activity android:name=".page3_3" />
+        <activity android:name=".page3_2" />
+        <activity android:name=".page3_1" />
+        <activity android:name=".page3" />
+        <activity android:name=".page2oi_2" />
+        <activity android:name=".page2iau_2" />
+        <activity android:name=".page2ua_2" />
+        <activity android:name=".page2ia_2" />
+        <activity android:name=".page2au_2" />
+        <activity android:name=".page2ai_2" />
+        <activity android:name=".page2u_2" />
+        <activity android:name=".page2o_2" />
+        <activity android:name=".page2i_2" />
+        <activity android:name=".page2e_2" />
+        <activity android:name=".page2a_2" />
+        <activity android:name=".page2ng_1" />
+        <activity android:name=".page2sy_1" />
+        <activity android:name=".page2kh_1" />
+        <activity android:name=".page2ny_1" />
+        <activity android:name=".page2gh_1" />
+        <activity android:name=".page2r_1" />
+        <activity android:name=".page2z_1" />
+        <activity android:name=".page2y_1" />
+        <activity android:name=".page2x_1" />
+        <activity android:name=".page2v_1" />
+        <activity android:name=".page2u_1" />
+        <activity android:name=".page2t_1" />
+        <activity android:name=".page2s_1" />
+        <activity android:name=".page2w_1" />
+        <activity android:name=".page2q_1" />
+        <activity android:name=".page2p_1" />
+        <activity android:name=".page2o_1" />
+        <activity android:name=".page2n_1" />
+        <activity android:name=".page2m_1" />
+        <activity android:name=".page2l_1" />
+        <activity android:name=".page2k_1" />
+        <activity android:name=".page2j_1" />
+        <activity android:name=".page2i_1" />
+        <activity android:name=".page2h_1" />
+        <activity android:name=".page2g_1" />
+        <activity android:name=".page2f_1" />
+        <activity android:name=".page2e_1" />
+        <activity android:name=".page2d_1" />
+        <activity android:name=".page2c_1" />
+        <activity android:name=".page2b_1" />
+        <activity android:name=".page2a_1" />
+        <activity android:name=".page2_10" />
+        <activity android:name=".page2_9" />
+        <activity android:name=".page2_8" />
+        <activity android:name=".page2_7" />
+        <activity android:name=".page2_6" />
+        <activity android:name=".page2_5" />
+        <activity android:name=".page2_4" />
+        <activity android:name=".page2_3" />
+        <activity android:name=".page2_2" />
+        <activity android:name=".page2_1" />
+        <activity android:name=".page1_12" />
+        <activity android:name=".page1_11" />
+        <activity android:name=".page1_10" />
+        <activity android:name=".page1_9" />
+        <activity android:name=".page1_8" />
+        <activity android:name=".page1_7" />
+        <activity android:name=".page1_6" />
+        <activity android:name=".psge1_5" />
+        <activity android:name=".page1_4" />
+        <activity android:name=".page1_3" />
+        <activity android:name=".page1_2" />
+        <activity android:name=".page1_1" />
+        <activity android:name=".page2" />
+        <activity android:name=".page1" />
+        <activity android:name=".home_page" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.melayuu.page2y_1" />
+    </application>
+
+</manifest>

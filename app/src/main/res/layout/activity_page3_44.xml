@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".page3_44">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="340dp"
+        android:layout_height="550dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="บทสนทนาในครอบครัวภาษามลายูระหว่างแม่กับลูก"
+                android:textColor="#0830E6"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            ////////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Mak! Saya sudah sampai."
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="มะ ซายา ซูดะ ซัมปัย"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="แม่ครับผมกลับมาแล้ว"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            /////////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Baik. Kau sudah balik dari sekolah."
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="ไบคฺ เกา ซูดะ บาลิ ดารี เซอโกละ"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="กลับมาจากโรงเรียนแล้วเหรอลูก"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            ////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Pergi  mandi dahulu, nanti datang minum petang."
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="เปิรกี มันดิ ดาฮูลู นันติ ดาตัง มินุม เปอตัง"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="ไปอาบน้ำก่อนเดี๋ยวมาทานอาหารว่างตอนบ่ายกัน"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            ///////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="li, apa ni bajukau kotor sangat; tak pernah balik dengan baju yang bersih ni."
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="อะลี อะปา นี บาจูเกา โกโตร ซางัต ตะ เปิรนะฮฺ บาลิคฺ เดองัน บาจู ยัง เบิรซิฮฺ นี"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="อาลี ทำไมเสื้อแกถึงได้สกปรกอย่างนี้ ไม่เคยกลับบ้านด้วยเสื้อที่สะอาดเลย"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            //////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Seluar pun kotor."
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="เซอลูอัร ปุน โกโตร"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="กางเกงก็สกปรก"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            ///////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Kotor sedikit sahaja, Mak! kerana (sebab) saya  jatuh."
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="โกโตร เซอดิกิต ซาฮาจา มะ เคอรานา (เซอบับ) ซายา จะตุฮฺ"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="สกปรกนิดเดียวเองผมหกล้มครับแม่"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            //////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1g"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Hai! Tiap-tiap hari, panaskah! Hujankah! Sejukkah! Bajukau tak pernah bersih."
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2g"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="ไฮ เตียบ เตียบ ฮารี ปานัสกะฮฺ  ฮูจันกะฮฺ  เซอจุ๊กะฮฺ บาจูเกา ตะคฺ เปิรนะฮฺ เบิรซิฮฺ"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3g"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="อย่าพูดเลยดีกว่า ทุกวัน ไม่ว่าฝนตก แดดออกหรือว่าหน้าหนาวเสื้อแกไม่เคยสะอาดเลย"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4g"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            ///////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Kalau tak basah, bau busuk, itu bukan bajukau."
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="กาเลา ตะ บาซะฮิ เบา บูซุคฺ อิตู บูกัน บาจูเกา"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="ถ้าไม่เปียกชื้นหรือส่งกลิ่นแล้วล่ะก็ไม่ใช่เสื้อของแก"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            //////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Cepat! Cepat! Pergi mandi"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="เชอปัต เชอปัต เปิรกี มันดิ"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="เร็วๆ เข้าไปอาบน้ำซะ"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            ///////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Mak ni malas bercakap dengan kau."
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="มะ นิ มาลัส เบิรจากับ เดองัน เกา"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="แม่ขี้เกียจพูดกับแกแล้ว"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+
+            <TextView
+                android:id="@+id/textView5j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            <TextView
+                android:id="@+id/textView6j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            <TextView
+                android:id="@+id/textView7j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            <TextView
+                android:id="@+id/textView8j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            //////////////////////////////////////////////////
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButton1vdo"
+        android:layout_width="166dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/vdo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

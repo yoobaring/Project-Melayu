@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".page3_33">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="340dp"
+        android:layout_height="550dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="บทสนทนาทำความรู้จักกับคนที่พึ่งเจอ"
+                android:textColor="#0830E6"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            ////////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Anda datang dari mana?"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="อันดา ดาตัง ดารี มานา?"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="คุณมาจากไหนค่ะ?"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            /////////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Saya datang dari Yala."
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="ซายา ดาตัง ดารี ยะลา"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="ฉันมาจากยะลาค่ะ"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            ////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Anda orang Thai-Muslimkah?"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="อันดา โอรัง ไท มุสลิมกะ?"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="คุณเป็นคนไทยมุสลิมใช่ไหมคะ?"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            ///////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Ya. Saya seorang Thai-Muslim "
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="ยา ซายา เซอโอรัง ไทย มุสลิม ดารี ยะลา"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="ใช่แล้วค่ะ ฉันเป็นคนไทยมุสลิมมาจากยะลา"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            //////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Anda nama siapa?"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="อันดา นามา ซิอะปา?"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="คุณชื่ออะไรคะ?"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            ///////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Nama saya Alimah."
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="นามา ซายา อลีมะห์"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="ฉันชื่ออาลีมะห์ค่ะ"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            //////////////////////////////////////////////////
+
+
+            <TextView
+                android:id="@+id/textView1i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Bagaimana anda?"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="บากัยมานา อันดา?"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="แล้วคุณล่ะค่ะ?"
+                android:textColor="#EE0404"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            ///////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Nama saya Sunisa."
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="นามา ซายา สุนิสา"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="ฉันชื่อสุนิสาค่ะ"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            //////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1k"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Saya seorang Thai-Buddhist."
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2k"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="ซายา เซอโอรัง ไทย บุดดิสทฺ"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3k"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="ฉันเป็นคนไทยพุทธค่ะ"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4k"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            ///////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView1l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="Saya tinggal di Bangkok."
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="ซายา ติงกัล ดี แบงค็อก"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="false"
+                android:text="อาศัยอยู่ในกรุงเทพ"
+                android:textColor="#110F0F"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+
+            <TextView
+                android:id="@+id/textView6j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            <TextView
+                android:id="@+id/textView5j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            <TextView
+                android:id="@+id/textView7j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            <TextView
+                android:id="@+id/textView8j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:singleLine="true"
+                android:text="              " />
+            //////////////////////////////////////////////////
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButton1vdo"
+        android:layout_width="166dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/vdo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
