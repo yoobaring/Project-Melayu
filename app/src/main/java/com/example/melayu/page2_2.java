@@ -24,18 +24,8 @@ public class page2_2 extends AppCompatActivity {
     private ListView listView2;
     private ArrayList<String> listv2;
     private ArrayAdapter<String> adapter2;
-    String data[]={"  A   อา/อะ",
-                   "  E   เออ/เอ",
-                   "  I   อี/อิ",
-                   "  O   โอ",
-                   "  U   อู/อุ",
-                   "  Ai  ไอ",
-                   "  Au  เอา",
-                   "  Ia  เอีย",
-                   "  Ua  อัว",
-                   "  Iau  เอียว",
-                   "  Oi  ออย",
-    };
+    int images[] = {R.drawable.icon,R.drawable.icon1,R.drawable.icon2,R.drawable.icon3};
+    String data[]={"  A   อา/อะ", "  E   เออ/เอ", "  I   อี/อิ", "  O   โอ", "  U   อู/อุ", "  Ai  ไอ", "  Au  เอา", "  Ia  เอีย", "  Ua  อัว", "  Iau  เอียว", "  Oi  ออย",};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,56 +72,6 @@ public class page2_2 extends AppCompatActivity {
         listv2 = new ArrayList<>(Arrays.asList(data));
         adapter2 = new ArrayAdapter<String>(this,R.layout.layoutabcd,R.id.listtext,listv2);
         listView2.setAdapter(adapter2);
-        listView2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                Toast.makeText(page2_2.this,"List"+position,Toast.LENGTH_SHORT).show();
-                if(position==0){
-                    Intent w1=new Intent(page2_2.this,page2a_2.class);
-                    startActivity(w1);
-                }
-                if(position==1){
-                    Intent w1=new Intent(page2_2.this,page2e_2.class);
-                    startActivity(w1);
-                }
-                if(position==2){
-                    Intent w1=new Intent(page2_2.this, page2i_2.class);
-                    startActivity(w1);
-                }
-                if(position==3){
-                    Intent w1=new Intent(page2_2.this,page2o_2.class);
-                    startActivity(w1);
-                }
-                if(position==4){
-                    Intent w1=new Intent(page2_2.this, page2u_2.class);
-                    startActivity(w1);
-                }
-                if(position==5){
-                    Intent w1=new Intent(page2_2.this,page2ai_2.class);
-                    startActivity(w1);
-                }
-                if(position==6){
-                    Intent w1=new Intent(page2_2.this,page2au_2.class);
-                    startActivity(w1);
-                }
-                if(position==7){
-                    Intent w1=new Intent(page2_2.this, page2ia_2.class);
-                    startActivity(w1);
-                }
-                if(position==8){
-                    Intent w1=new Intent(page2_2.this, page2ua_2.class);
-                    startActivity(w1);
-                }
-                if(position==9){
-                    Intent w1=new Intent(page2_2.this,page2iau_2.class);
-                    startActivity(w1);
-                }
-                if(position==10){
-                    Intent w1=new Intent(page2_2.this,page2oi_2.class);
-                    startActivity(w1);
-                }
-            }
-        });
 
     }
 }

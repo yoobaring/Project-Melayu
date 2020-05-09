@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.melayu">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,59 +11,43 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".page3_55"></activity>
-        <activity android:name=".page3_44" />
-        <activity android:name=".page3_33" />
-        <activity android:name=".page3_22" />
-        <activity android:name=".page3_11" />
+        <activity android:name=".CRUD.EditarActivity"></activity>
+        <activity android:name=".CRUD.MostrarActivity" />
+        <activity android:name=".CRUD.PageCRUD" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QuizActivityS" />
+        <activity android:name=".StartingScreenActivityS" />
+        <activity android:name=".S" />
+        <activity android:name=".QuizActivityB" />
+        <activity android:name=".StartingScreenActivityB" />
+        <activity android:name=".QuizActivityA" />
+        <activity android:name=".StartingScreenActivityA" />
+        <activity android:name=".Quiz5Activity" />
+        <activity android:name=".StartingScreen5Activity" />
+        <activity android:name=".Quiz4Activity" />
+        <activity android:name=".StartingScreen4Activity" />
+        <activity android:name=".Quiz3Activity" />
+        <activity android:name=".StartingScreen3Activity" />
+        <activity android:name=".page4" />
+        <activity android:name=".Quiz2Activity" />
+        <activity android:name=".StartingScreen2Activity" />
+        <activity android:name=".StartingScreen1Activity" />
+        <activity android:name=".Quiz1Activity" />
+        <activity android:name=".devolop" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".StartingScreenActivity" />
         <activity android:name=".page3_5" />
         <activity android:name=".page3_4" />
         <activity android:name=".page3_3" />
         <activity android:name=".page3_2" />
         <activity android:name=".page3_1" />
         <activity android:name=".page3" />
-        <activity android:name=".page2oi_2" />
-        <activity android:name=".page2iau_2" />
-        <activity android:name=".page2ua_2" />
-        <activity android:name=".page2ia_2" />
-        <activity android:name=".page2au_2" />
-        <activity android:name=".page2ai_2" />
-        <activity android:name=".page2u_2" />
-        <activity android:name=".page2o_2" />
-        <activity android:name=".page2i_2" />
-        <activity android:name=".page2e_2" />
-        <activity android:name=".page2a_2" />
-        <activity android:name=".page2ng_1" />
-        <activity android:name=".page2sy_1" />
-        <activity android:name=".page2kh_1" />
-        <activity android:name=".page2ny_1" />
-        <activity android:name=".page2gh_1" />
-        <activity android:name=".page2r_1" />
-        <activity android:name=".page2z_1" />
-        <activity android:name=".page2y_1" />
-        <activity android:name=".page2x_1" />
-        <activity android:name=".page2v_1" />
-        <activity android:name=".page2u_1" />
-        <activity android:name=".page2t_1" />
-        <activity android:name=".page2s_1" />
-        <activity android:name=".page2w_1" />
-        <activity android:name=".page2q_1" />
-        <activity android:name=".page2p_1" />
-        <activity android:name=".page2o_1" />
-        <activity android:name=".page2n_1" />
-        <activity android:name=".page2m_1" />
-        <activity android:name=".page2l_1" />
-        <activity android:name=".page2k_1" />
-        <activity android:name=".page2j_1" />
-        <activity android:name=".page2i_1" />
-        <activity android:name=".page2h_1" />
-        <activity android:name=".page2g_1" />
-        <activity android:name=".page2f_1" />
-        <activity android:name=".page2e_1" />
-        <activity android:name=".page2d_1" />
-        <activity android:name=".page2c_1" />
-        <activity android:name=".page2b_1" />
-        <activity android:name=".page2a_1" />
         <activity android:name=".page2_10" />
         <activity android:name=".page2_9" />
         <activity android:name=".page2_8" />
@@ -86,15 +72,10 @@
         <activity android:name=".page1_1" />
         <activity android:name=".page2" />
         <activity android:name=".page1" />
-        <activity android:name=".home_page" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name="com.example.melayuu.page2y_1" />
+        <activity android:name=".home_page" /> <!-- <activity android:name="com.example.melayuu.page2y_1" /> -->
+        <activity
+            android:name="com.theartofdev.edmodo.oropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
     </application>
 
 </manifest>

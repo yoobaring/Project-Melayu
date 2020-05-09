@@ -1,5 +1,6 @@
 package com.example.melayu;
 
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -7,7 +8,7 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-  private static int splash_time = 3000;
+    private static int splash_time = 3000;
 
 
     @Override
@@ -23,5 +24,5 @@ public class MainActivity extends AppCompatActivity {
             }
         },splash_time);
 
-         }
+    }
 }

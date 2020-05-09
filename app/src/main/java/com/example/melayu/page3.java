@@ -21,7 +21,7 @@ public class page3 extends AppCompatActivity {
         v1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent v1 = new Intent(page3.this,page3_11.class);
+                Intent v1 = new Intent(page3.this,page3_1.class);
                 startActivity(v1);
             }
         });
@@ -30,7 +30,7 @@ public class page3 extends AppCompatActivity {
         v2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent v2 = new Intent(page3.this,page3_22.class);
+                Intent v2 = new Intent(page3.this,page3_2.class);
                 startActivity(v2);
             }
         });
@@ -39,7 +39,7 @@ public class page3 extends AppCompatActivity {
         v3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent v3 = new Intent(page3.this,page3_33.class);
+                Intent v3 = new Intent(page3.this,page3_3.class);
                 startActivity(v3);
             }
         });
@@ -48,7 +48,7 @@ public class page3 extends AppCompatActivity {
         v4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent v4 = new Intent(page3.this,page3_44.class);
+                Intent v4 = new Intent(page3.this,page3_4.class);
                 startActivity(v4);
             }
         });
@@ -57,7 +57,7 @@ public class page3 extends AppCompatActivity {
         v5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent v5 = new Intent(page3.this,page3_55.class);
+                Intent v5 = new Intent(page3.this,page3_5.class);
                 startActivity(v5);
             }
         });

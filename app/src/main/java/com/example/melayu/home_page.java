@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class home_page extends AppCompatActivity {
-    ImageButton p1,p2,p3;
+    ImageButton p1,p2,p3,p4,p5,p6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +38,33 @@ public class home_page extends AppCompatActivity {
             public void onClick(View view) {
                 Intent p3 = new Intent(home_page.this,page3.class);
                 startActivity(p3);
+            }
+        });
+
+        p4=(ImageButton) findViewById(R.id.imageButton4);
+        p4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent p4 = new Intent(home_page.this,page4.class);
+                startActivity(p4);
+            }
+        });
+
+        p5=(ImageButton) findViewById(R.id.imageButton5);
+        p5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent p5 = new Intent(home_page.this, com.example.melayu.CRUD.PageCRUD.class);
+                startActivity(p5);
+            }
+        });
+
+        p6=(ImageButton) findViewById(R.id.imageButton6);
+        p6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent p6 = new Intent(home_page.this,devolop.class);
+                startActivity(p6);
             }
         });
     }

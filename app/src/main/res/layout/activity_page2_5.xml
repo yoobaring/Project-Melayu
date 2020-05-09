@@ -8,6 +8,9 @@
 
     <EditText
         android:id="@+id/edtSeartch5"
+        android:background="@drawable/radius"
+        android:layout_margin="16dp"
+        android:padding="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"

@@ -5,9 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".page2_1">
-
     <EditText
+        android:background="@drawable/radius"
+        android:layout_margin="16dp"
         android:id="@+id/edtSeartch1"
+        android:padding="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
@@ -22,5 +24,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtSeartch1"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
